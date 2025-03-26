@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 st.title("Loan Approval Process Automation by Tanay")
-model=joblib.load('C:/Users/marad/Downloads/datasets/ld.joblib')
+model=joblib.load('ld.joblib')
 gender=st.number_input("Enter the Gender Male:0, Female:1 : ")
 married=st.number_input("Enter the Married Single:0, Married:1 : ")
 income=st.number_input("Enter the income of the Applicant : ")
